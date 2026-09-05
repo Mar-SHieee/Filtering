@@ -1,6 +1,6 @@
 # Filtering
 
-Exploratory data analysis of a global e-commerce sales dataset, focused on data selection, filtering, and feature engineering with `pandas` — culminating in a set of business insights on top-performing categories, regions, and products.
+Exploratory data analysis of a global e-commerce sales dataset, focused on data selection, filtering, and feature engineering with `pandas` culminating in a set of business insights on top-performing categories, regions, and products.
 
 ## 📁 Dataset
 
@@ -12,7 +12,7 @@ The notebook works with `global_ecommerce_sales.csv`, containing order-level e-c
 - `Discount_Percent`, `Total_Sales`, `Shipping_Cost`, `Profit`
 - `Payment_Method`
 
-> Note: the CSV file itself is not included in this repo — place it in the working directory (or update the file path in the notebook) before running.
+> Note: the CSV file is included in this repo ( download it and update the file path in the notebook) before running.
 
 ## 🔍 What the notebook does
 
@@ -39,9 +39,9 @@ The notebook works with `global_ecommerce_sales.csv`, containing order-level e-c
 
 ## 📊 Final Business Insights
 
-- **Best Category:** Furniture — highest total profit and sales
-- **Strongest Region:** Europe — highest overall profit
-- **Product to Promote:** Ergonomic Office Chair — highest total profit among all products
+- **Best Category:** Furniture has highest total profit and sales
+- **Strongest Region:** Europe has highest overall profit
+- **Product to Promote:** Ergonomic Office Chair has highest total profit among all products
 - Office furniture products consistently rank among top performers in both sales and profit
 - Some low-priced office supplies show very low or negative profit, suggesting pricing/cost review is needed
 - Recommendation: focus marketing on high-profit products while optimizing underperforming ones
